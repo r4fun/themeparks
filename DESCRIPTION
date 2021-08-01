@@ -1,11 +1,9 @@
 Package: themeparks
 Title: R interface to themeparks API
 Version: 0.0.0.9000
-Authors@R: 
-    person(given = "Tyler",
-           family = "Littlefield",
-           role = c("aut", "cre"),
-           email = "tylerlittlefield@hey.com")
+Authors@R: c(
+  person(given = "Tyler", family = "Littlefield", role = c("aut", "cre"), email = "tylerlittlefield@hey.com", comment = "Author of API wrapper"),
+  person(given = "Jamie", family = "Holding", role = c("cph"), comment = "Author and maintainer of themeparks code and API"))
 Description: Access park information and wait times with the themeparks API.
 License: MIT + file LICENSE
 Encoding: UTF-8
