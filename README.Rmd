@@ -1,0 +1,55 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# themeparks
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of themeparks is to provide an R interface to some of the functionality found at [`cubehouse/themeparks`](https://github.com/cubehouse/themeparks). Currently, only `r length(themeparks::parks())` of the 62 parks are supported here.
+
+## Installation
+
+You can install the development version of themeparks with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("tylurp/themeparks")
+
+```
+
+## Example
+
+Get park information and wait times:
+
+```{r example}
+library(themeparks)
+
+parks()
+
+park_info("WaltDisneyWorldMagicKingdom")
+
+park_wait_times("WaltDisneyWorldMagicKingdom")
+
+park_calendar("WaltDisneyWorldMagicKingdom")
+```
+
+## Related work
+
+* [`LucyMcGowan/parkhoppr`](https://github.com/LucyMcGowan/parkhoppr)
+
+## Acknowledgments
+
+* [`cubehouse/themeparks`](https://github.com/cubehouse/themeparks)
