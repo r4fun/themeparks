@@ -4,6 +4,8 @@
 # themeparks
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/r4fun/themeparks/workflows/R-CMD-check/badge.svg)](https://github.com/r4fun/themeparks/actions)
 <!-- badges: end -->
 
 The goal of themeparks is to provide an R interface to some of the

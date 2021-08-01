@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # themeparks
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/r4fun/themeparks/workflows/R-CMD-check/badge.svg)](https://github.com/r4fun/themeparks/actions)
 <!-- badges: end -->
 
 The goal of themeparks is to provide an R interface to some of the functionality found at [`cubehouse/themeparks`](https://github.com/cubehouse/themeparks). Currently, only `r length(themeparks::parks())` of the 62 parks are supported here.
