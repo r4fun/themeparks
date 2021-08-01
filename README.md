@@ -19,7 +19,7 @@ You can install the development version of themeparks with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("tylurp/themeparks")
+devtools::install_github("r4fun/themeparks")
 ```
 
 ## Example
